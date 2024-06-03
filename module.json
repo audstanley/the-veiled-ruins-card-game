@@ -1,0 +1,36 @@
+{
+  "id": "the-veild-ruins-card-game",
+  "title": "The Veild Ruins Card Game",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "url": "https://github.com/audstanley/the-veiled-ruins-card-game",
+  "packs": [
+    {
+      "name": "veiled-ruins-cards",
+      "label": "Veiled Ruins Cards",
+      "path": "packs/veiled-ruins-cards",
+      "type": "Cards",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "veiled-ruins-card-game-rules",
+      "label": "Veiled Ruins Card Game Rules",
+      "path": "packs/veiled-ruins-card-game-rules",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    }
+  ]
+}
